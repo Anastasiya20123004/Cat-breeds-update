@@ -74,26 +74,47 @@ background-color: #F1F3FF;
 padding: 20px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 800px) {
   .row-one, .row-two, .row-three, .row-four{
     flex-wrap: wrap;
-    margin-top: 0;
+    margin-top: 0px;
   }
   footer{
     flex-wrap: wrap;
   }
   .card{
-    margin-top: 10px;
+    margin-top: 0px;
   }
   
   .row-five{
     display: flex;
     justify-content: center;
-    margin-top: 0;
+    margin-top: 0px;
   }
   .kornish-rex {
-    margin-left: 0;
-    margin-top: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .all-breed-columns{
+  flex-wrap: wrap;
+  }
+  
+  .viber{
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+  }
+  
+  .telegram{
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+  }
+
+  .switch{
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 20px;
   }
   }
 
@@ -209,8 +230,8 @@ margin-right: 50px;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  background-color: #150a4e; 
+  bottom: 0; 
+  background-color: #2196F3; 
   transition: background-color 0.4s;
   border-radius: 40px;
 }
@@ -228,7 +249,7 @@ margin-right: 50px;
 }
 
 .input:checked + .slider {
-  background-color: #2196F3; 
+  background-color: #150a4e; 
 }
 
 .input:checked + .slider:before {
@@ -242,12 +263,12 @@ margin-right: 50px;
   height: 48px;
 }
 
-.sun {
+.moon {
   top: 16px;
   left: 90px; 
 }
 
-.moon {
+.sun {
   top: 10px;
   left: 14px;
 }

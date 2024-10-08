@@ -36,3 +36,29 @@ h1 {
 footer {
     background-color: #EAECFF;
 }
+
+@media (max-width: 800px) {
+    .arrow_abissian {
+        display: none;
+    }
+
+    .Abissian_text {
+        text-align: center;
+    }
+
+    .Abissian_all {
+        flex-direction: column;
+    }
+
+    .Abissian_all img {
+        margin-left: 18%;
+    }
+
+    h1 {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 55px;
+    }
+}

@@ -43,6 +43,7 @@ footer {
 
     .Maincun_text {
         text-align: center;
+        font-size: 22px;
     }
 
     .Maincun_all {
@@ -54,10 +55,16 @@ footer {
         justify-content: center;
     }
 
+    .Maincun_all img {
+        height: 300px;
+        width: 282px;
+    }
+
     h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        font-size: 26px;
     }
 }

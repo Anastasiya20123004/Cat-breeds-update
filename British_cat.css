@@ -45,6 +45,7 @@ footer {
 
     .British_text {
         text-align: center;
+        font-size: 22px;
     }
 
     .British_all {
@@ -56,10 +57,16 @@ footer {
         justify-content: center;
     }
 
+    .British_all img {
+        height: 300px;
+        width: 278px;
+    }
+
     h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        font-size: 26px;
     }
 }

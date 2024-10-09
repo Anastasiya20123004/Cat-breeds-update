@@ -45,6 +45,7 @@ footer {
 
     .Kornish-rex_text {
         text-align: center;
+        font-size: 22px;
     }
 
     .Kornish-rex_all {
@@ -54,6 +55,12 @@ footer {
     .Kornish-rex_img{
         display: flex;
         justify-content: center;
+        margin-top: 8px;
+    }
+
+    .Kornish-rex_all img {
+        height: 310px;
+        width: 280px;
     }
 
     h1 {
@@ -61,5 +68,6 @@ footer {
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        font-size: 26px;
     }
 }

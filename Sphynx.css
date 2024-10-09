@@ -45,6 +45,7 @@ footer {
 
     .Sphynx_text {
         text-align: center;
+        font-size: 22px;
     }
 
     .Sphynx_all {
@@ -56,10 +57,17 @@ footer {
         justify-content: center;
     }
 
+    .Sphynx_all img {
+        height: 240px;
+        width: 355px;
+        margin-top: -12px;
+    }
+
     h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        font-size: 26px;
     }
 }

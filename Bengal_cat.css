@@ -46,6 +46,7 @@ footer {
     .Bengal_text {
         text-align: center;
         justify-content: space-around;
+        font-size: 22px;
     }
 
     .Bengal_all {
@@ -57,9 +58,15 @@ footer {
         justify-content: center;
     }
 
+    .Bengal_all img {
+        height: 300px;
+        width: 185px;
+    }
+
     h1 {
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        font-size: 26px;
     }
 }

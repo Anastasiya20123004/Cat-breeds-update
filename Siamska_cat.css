@@ -45,6 +45,7 @@ footer {
 
     .Siamska_text {
         text-align: center;
+        font-size: 22px;
     }
 
     .Siamska_all {
@@ -56,10 +57,16 @@ footer {
         justify-content: center;
     }
 
+    .Siamska_all img {
+        height: 290px;
+        width: 260px;
+    }
+
     h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        font-size: 26px;
     }
 }

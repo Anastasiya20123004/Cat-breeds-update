@@ -44,6 +44,7 @@ footer {
 
     .Somaliiska_text {
         text-align: center;
+        font-size: 22px;
     }
 
     .Somaliiska_all {
@@ -55,10 +56,17 @@ footer {
         justify-content: center;
     }
 
+    .Somaliiska_all img {
+        height: 270px;
+        width: 258px;
+        margin-top: 0px;
+    }
+
     h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        font-size: 26px;
     }
 }

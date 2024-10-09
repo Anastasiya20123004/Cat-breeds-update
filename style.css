@@ -103,6 +103,15 @@ padding: 20px;
   }
 
   .telegram{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .telegram{
     flex-wrap: wrap;
     width: auto;
     height: auto;
@@ -260,7 +269,7 @@ margin-right: 50px;
   height: 64px;
   width: 64px;
   left: 8px;
-  bottom: 8px;
+  bottom: 7px;
   background-color: white;
   border-radius: 50%;
   transition: transform 0.4s;
@@ -271,7 +280,7 @@ margin-right: 50px;
 }
 
 .input:checked + .slider:before {
-  transform: translateX(73px); 
+  transform: translateX(78px); 
 }
 
 .sun,
@@ -287,7 +296,7 @@ margin-right: 50px;
 }
 
 .sun {
-  top: 16px;
+  top: 17px;
   left: 14px;
 }
 

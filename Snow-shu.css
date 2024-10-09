@@ -45,6 +45,7 @@ footer {
 
     .Snow-shu_text {
         text-align: center;
+        font-size: 22px;
     }
 
     .Snow-shu_all {
@@ -56,10 +57,17 @@ footer {
         justify-content: center;
     }
 
+    .Snow-shu_all img {
+        height: 280px;
+        width: 305px;
+        margin-top: -20px;
+    }
+
     h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        font-size: 26px;
     }
 }

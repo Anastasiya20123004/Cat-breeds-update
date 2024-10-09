@@ -44,6 +44,7 @@ footer {
 
     .Abissian_text {
         text-align: center;
+        font-size: 22px;
     }
 
     .Abissian_all {
@@ -55,10 +56,16 @@ footer {
         justify-content: center;
     }
 
+    .Abissian_all img {
+        height: 270px;
+        width: 250px;
+    }
+
     h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        font-size: 26px;
     }
 }

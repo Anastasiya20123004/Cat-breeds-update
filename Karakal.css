@@ -43,8 +43,8 @@ footer {
     }
 
     .Karakal_text {
-        display: flex;
         text-align: center;
+        font-size: 22px;
     }
 
     .Karakal_all {
@@ -56,10 +56,16 @@ footer {
         justify-content: center;
     }
 
+    .Karakal_all img {
+        height: 200px;
+        width: 285px;
+    }
+
     h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        font-size: 26px;
     }
 }

@@ -45,6 +45,7 @@ footer {
 
     .Scottish_text {
         text-align: center;
+        font-size: 22px;
     }
 
     .Scottish_all {
@@ -54,12 +55,19 @@ footer {
     .Scottish_img{
         display: flex;
         justify-content: center;
+        margin-top: 20px;
     }
+
+    .Scottish_all img {
+        height: 288px;
+        width: 220px;
+    }    
 
     h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        font-size: 26px;
     }
 }

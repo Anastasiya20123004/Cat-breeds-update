@@ -93,6 +93,10 @@ padding: 20px;
   .all-breed-columns{
   flex-wrap: wrap;
   }
+
+  .viber_and_telegram{
+    margin-left: 5px;
+  }
   
   .viber{
     display: flex;
@@ -102,20 +106,30 @@ padding: 20px;
     height: auto;
   }
 
+  .viber img {
+    height: 81px;
+    width: 82px;
+    }
+
+  .viber p {
+    font-size: 12px;
+    }
+
   .telegram{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: auto;
     height: auto;
-    margin-left: 10px;
   }
 
-  .telegram{
-    flex-wrap: wrap;
-    width: auto;
-    height: auto;
-    margin-left: 20px;
+  .telegram p {
+    font-size: 12px;
+  }
+
+  .telegram img {
+    height: 81px;
+    width: 82px;
   }
 
   .switch{

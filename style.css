@@ -95,22 +95,24 @@ padding: 20px;
   }
   
   .viber{
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: auto;
     height: auto;
-    margin-left: 20px;
   }
   
   .telegram{
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: auto;
     height: auto;
-    margin-left: 20px;
   }
 
   .switch{
     flex-wrap: wrap;
-    left: 70px;
+    left: 60px;
     top: -138px;
   }
 

@@ -37,3 +37,29 @@ h1 {
 footer {
     background-color: #EAECFF;
 }
+
+@media (max-width: 800px) {
+    .arrow_abissian {
+        display: none;
+    }
+
+    .Ekzotuk_text {
+        text-align: center;
+    }
+
+    .Ekzotuk_all {
+        flex-direction: column;
+    }
+
+    .Ekzotuk_img{
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}

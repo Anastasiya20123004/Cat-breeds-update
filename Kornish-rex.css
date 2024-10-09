@@ -37,3 +37,29 @@ h1 {
 footer {
     background-color: #EAECFF;
 }
+
+@media (max-width: 800px) {
+    .arrow_abissian {
+        display: none;
+    }
+
+    .Kornish-rex_text {
+        text-align: center;
+    }
+
+    .Kornish-rex_all {
+        flex-direction: column;
+    }
+
+    .Kornish-rex_img{
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}

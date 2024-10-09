@@ -35,3 +35,29 @@ h1 {
 footer {
     background-color: #EAECFF;
 }
+
+@media (max-width: 800px) {
+    .arrow_abissian {
+        display: none;
+    }
+
+    .Maincun_text {
+        text-align: center;
+    }
+
+    .Maincun_all {
+        flex-direction: column;
+    }
+
+    .Maincun_img{
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}

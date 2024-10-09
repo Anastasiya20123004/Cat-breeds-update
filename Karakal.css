@@ -43,6 +43,7 @@ footer {
     }
 
     .Karakal_text {
+        display: flex;
         text-align: center;
     }
 

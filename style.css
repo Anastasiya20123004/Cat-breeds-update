@@ -95,6 +95,7 @@ padding: 20px;
   }
   
   .viber{
+<<<<<<< HEAD
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -108,11 +109,28 @@ padding: 20px;
     flex-wrap: wrap;
     width: auto;
     height: auto;
+=======
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  .telegram{
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+>>>>>>> 20c5a89ad27923f47424d8c0a8be84cc917b3628
   }
 
   .switch{
     flex-wrap: wrap;
+<<<<<<< HEAD
     left: 60px;
+=======
+    left: 70px;
+>>>>>>> 20c5a89ad27923f47424d8c0a8be84cc917b3628
     top: -138px;
   }
 

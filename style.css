@@ -439,9 +439,11 @@ margin-right: 50px;
       align-items: flex-start;
   }
   .telegram {
-      margin-top: 20px;
+      display: flex;
+      justify-content: flex-start;
   }
   .switcher {
-      margin-top: 83px;
+      display: flex;
+      justify-content: flex-start;
   }
 }
